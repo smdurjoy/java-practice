@@ -9,6 +9,6 @@ public class TwoClass {
 
 class BUBT {
     String showAll() {
-        return "Total number of students is 999";
+        return "\nTotal number of students is 999\n";
     }
 }
