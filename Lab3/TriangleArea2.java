@@ -1,8 +1,8 @@
 package Lab3;
 
-class Area {
+class Area2 {
     float a,b,c;
-    Area(float a, float b, float c) {
+    Area2(float a, float b, float c) {
         this.a = a;
         this.b = b;
         this.c = c;
@@ -17,7 +17,7 @@ class Area {
 
 public class TriangleArea2 {
     public static void main(String args[]) {
-        Area a = new Area(3, 4, 6);
+        Area2 a = new Area2(3, 4, 6);
         System.out.println("Area is = "+a.area());
         System.out.println("Perimeter is = "+a.perimeter());
     }

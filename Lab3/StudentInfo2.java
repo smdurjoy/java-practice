@@ -1,10 +1,10 @@
 package Lab3;
 
-class Student {
+class Student2 {
     int roll;
     String name, address, phone;
 
-    Student(String n) {
+    Student2(String n) {
         name = n;
     }
     public void setPhone(String p) {
@@ -27,13 +27,13 @@ class Student {
 
 public class StudentInfo2 {
     public static void main(String args[]) {
-        Student sam = new Student("Sam");
+        Student2 sam = new Student2("Sam");
         sam.setPhone("01888888888");
         sam.setRoll(2);
         sam.setAddress("Dhaka");
         sam.printInfo();
 
-        Student john = new Student("John");
+        Student2 john = new Student2("John");
         john.setPhone("01777777777");
         john.setRoll(5);
         john.setAddress("Rangpur");

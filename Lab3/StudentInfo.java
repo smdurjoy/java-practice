@@ -1,6 +1,6 @@
 package Lab3;
 
-class Student {
+class Student3 {
     String name;
     int roll_no;
     
@@ -17,7 +17,7 @@ class Student {
 
 public class StudentInfo {
     public static void main(String args[]) {
-        Student s = new Student();
+        Student3 s = new Student3();
         s.setName("John");
         s.setRollNo(2);
         s.printInfo();
